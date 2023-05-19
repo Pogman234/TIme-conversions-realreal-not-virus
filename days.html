@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time conversions days</title>
+    <style type="text/css">
+       body {
+  background-position:center;
+  background-image:url("resonance bg2.png");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+</style>
+</head>
+<body>
+	<script>function daysec(){
+     let a = parseInt(document.getElementById("operandOne").value);
+     let b = 60;
+     alert(a*b);
+}
+
+function daymins(){
+    let a = parseInt(document.getElementById("operandOne").value);
+    let b = 60;
+    alert(a/b);
+}
+
+function dayhrs(){
+    let a = parseInt(document.getElementById("operandOne").value);
+    let b = 1440;
+    alert(a/b);
+}</script>
+<div class="col-lg-2 column" style="margin-left: 50px; padding: 10px;">
+ <table cellpadding="5" width="100%" style="text-align: center;"> <tr><td><h1>time coversions (days edition)</h1></tr></td></table>
+            <hr>
+ <table cellpadding="5" width="100%" style="text-align: center;">
+            <input type="number" id="operandOne">
+            <br><br>
+    <button  class="btn btn-light btn-block" onclick="daysec();">Seconds</button>
+    <button  class="btn btn-light btn-block" onclick="daymins();">Minutes</button>
+    <button  class="btn btn-light btn-block" onclick="dayhrs();">Days</button>
+    <br><br>
+        </div>
+                <br><br>
+ <tr>
+ <td>
+ <a href="file:///C:/Users/david/OneDrive/Pictures/school/ict%202/exercises/4th%20QUARTER/Sw%202/Fairview_ICT9R_Q4SW2_Irabonn.htm"><h4>go back</h4></a>
+</td>
+</tr>
+      </table>
+</body>
+</html>
